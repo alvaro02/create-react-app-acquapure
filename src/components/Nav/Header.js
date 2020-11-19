@@ -14,7 +14,7 @@ const Header = () => {
           <p className="invisible md:visible md:pl-4">Llámanos ahora: +56 8 2345 6789</p>
         </div>
         <div className="w-1/2 flex justify-end">
-          <a className="pr-4 font-bold" href="#">
+          <a className="pr-4 font-bold" href="www.google.cl">
             Registrate
           </a>
           <btn className="bg-celeste hover:bg-celesteosc text-white rounded-lg px-2">
