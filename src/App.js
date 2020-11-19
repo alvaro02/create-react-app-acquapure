@@ -1,13 +1,12 @@
 import React from 'react'
-import Slider from './components/Slider'
+import Slider from './components/Slider/Slider'
+import Header from './components/Nav/Header'
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>hola</h1>
-      <h2>mundo</h2>
-      <h1>XD</h1>
-      <Slider />
+      <Header />
+      
     </div>
   )
 }

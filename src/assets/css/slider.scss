@@ -14,7 +14,7 @@
 .slide {
   position: relative;
   min-width: 100%;
-  
+
   transition: 0.5s;
   overflow: hidden;
 }
@@ -33,7 +33,7 @@
     background: rgba(0, 0, 0, 0.356);
     cursor: pointer;
     i {
-        color: rgb(119, 119, 119);
+        color: rgb(209, 209, 209);
     }
   }
 }
@@ -47,3 +47,29 @@
   right: 0;
   @extend %btn-styles;
 }
+
+.palabras {
+  position: absolute;
+  
+  }
+
+  
+@media (max-width: 767px) {
+
+  .ulnav {
+      position: absolute;
+      flex-flow: row nowrap;
+      background-color: #0D2538;
+
+      top: 0;
+      right: 0;
+      width: 300px;
+      height: 100vh;
+      padding-top: 3.5rem;
+  }
+  
+  .linav {
+      color: #fff;
+  }
+  
+  }
