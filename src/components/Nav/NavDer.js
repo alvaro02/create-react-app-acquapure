@@ -22,7 +22,7 @@ const Ul = styled.ul`
 
 const NavDer = ({ open }) => {
   return (
-    <Ul open={open} className="visible md:invisible font-titulo">
+    <Ul open={open} className="visible md:invisible md:-mb-40 font-titulo">
       <li>INICIO SESION</li>
       <li>INICIO</li>
       <li>CATALOGO</li>

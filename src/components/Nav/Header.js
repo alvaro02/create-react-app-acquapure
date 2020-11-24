@@ -1,7 +1,7 @@
 import React from "react";
 import aqua_pure from "../../assets/img/aqua_pure.png";
 import Burger from "./Burger";
-import carro from "../../assets/img/shopping_cart-black-18dp.svg"
+import carro from "../../assets/img/shopping_cart.svg"
 
 const Header = () => {
   return (

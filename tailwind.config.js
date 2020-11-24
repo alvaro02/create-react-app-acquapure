@@ -12,6 +12,7 @@ module.exports = {
         celeste: "#1BBDE8",
         celesteosc: "#128DC7",
         plomo: "#7E7E7E",
+        contenedor: "#F9F9F9",
       },
     },
     fontFamily: {
