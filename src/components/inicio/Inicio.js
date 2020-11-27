@@ -81,7 +81,7 @@ const Inicio = () => {
                 </p>
               </div>
               <div className="pt-3 flex justify-evenly text-white">
-                <button className="bg-celeste rounded-lg px-4 py-1 text-white font-bold font-titulo">
+                <button className="bg-celeste rounded-lg px-4 py-1 font-bold font-titulo">
                   $ 10.000
                 </button>
                 <button className="bg-verde hover:hoverver rounded-lg px-4 py-1 text-white font-bold font-titulo">

@@ -1,7 +1,8 @@
 import React from "react";
 import aqua_pure from "../../assets/img/aqua_pure.png";
 import Burger from "./Burger";
-import carro from "../../assets/img/shopping_cart.svg"
+import carro from "../../assets/img/shopping_cart.svg";
+import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -34,13 +35,13 @@ const Header = () => {
           
           <div className="invisible md:visible w-1/2 flex justify-end object-center">
             <ul className="flex justify-end mt-3">
-              <li className="pl-1 text-white">INICIO</li>
+            <Link to={'/'}><li className="pl-1 text-white">INICIO</li></Link>
               <li className="pl-1 text-black">│</li>
-              <li className="pl-1 text-white">CATALOGO</li>
+              <Link to={'/'}><li className="pl-1 text-white">CATALOGO</li></Link>
               <li className="pl-1 text-black">│</li>
-              <li className="pl-1 text-white">NOSOTROS</li>
+              <Link to={'/Contacto'}><li className="pl-1 text-white">NOSOTROS</li></Link>
               <li className="pl-1 text-black">│</li>
-              <li className="pl-1 text-white">CONTACTO</li>
+              <Link to={'/Contacto'}> <li className="pl-1 text-white">CONTACTO</li></Link>
             </ul>
           </div>
         </div>
