@@ -13,6 +13,7 @@ module.exports = {
         celesteosc: "#128DC7",
         plomo: "#7E7E7E",
         contenedor: "#F9F9F9",
+        foote: "#031E47"
       },
     },
     fontFamily: {
@@ -28,9 +29,12 @@ module.exports = {
       '4': '1rem',
       '5': '1.25rem',
       '6': '1.5rem',
+      '7': '2rem',
       '8': "2.313rem",
       '10': '2.5rem',
       '12': '3rem',
+      '13': '3.1rem',
+      '14': '3.3rem',
       '16': '4rem',
       '20': '5rem',
       '24': '6rem',

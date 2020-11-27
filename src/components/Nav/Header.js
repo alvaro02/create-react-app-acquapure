@@ -30,16 +30,16 @@ const Header = () => {
       <div className="md:h-12 md:bg-celeste font-parrafo text-lg mt-4 px-8 lg:px-32 md:mb-6">
         <div className="w-full">
           <div className="w-full md:w-1/2 flex justify-start md:float-left">
-            <img src={aqua_pure} alt="Logo" className="w-48 bg-white -mt-6 md:-mt-2"></img>
+            <img src={aqua_pure} alt="Logo" className="w-48 bg-white -mt-6 md:-mt-2 px-3"></img>
           </div>
           
           <div className="invisible md:visible w-1/2 flex justify-end object-center">
             <ul className="flex justify-end mt-3">
             <Link to={'/'}><li className="pl-1 text-white">INICIO</li></Link>
               <li className="pl-1 text-black">│</li>
-              <Link to={'/'}><li className="pl-1 text-white">CATALOGO</li></Link>
+              <Link to={'/Catalogo'}><li className="pl-1 text-white">CATALOGO</li></Link>
               <li className="pl-1 text-black">│</li>
-              <Link to={'/Contacto'}><li className="pl-1 text-white">NOSOTROS</li></Link>
+              <Link to={'/Nosotros'}><li className="pl-1 text-white">NOSOTROS</li></Link>
               <li className="pl-1 text-black">│</li>
               <Link to={'/Contacto'}> <li className="pl-1 text-white">CONTACTO</li></Link>
             </ul>

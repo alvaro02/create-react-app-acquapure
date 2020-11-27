@@ -42,7 +42,7 @@ const Inicio = () => {
             </div>
             <div className="flex justify-center">
               <p className="font-parrafo text-plomo font-bold text-current pt-2">
-                Sin plomo
+                Sin Sodio
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Inicio = () => {
         </div>
       </div>
       {/*parte de abajo*/}
-      <div className="pt-5 bg-contenedor">
+      <div className="pt-5 bg-contenedor pb-6">
         <div className="w-full px-8 pt-2 lg:px-32">
           <div className="flex justify-center font-titulo text-3xl font-bold text-celeste">
             KIT INICIAL
@@ -72,8 +72,8 @@ const Inicio = () => {
           <div className="pt-8 md:flex">
             <div className="w-full md:w-1/2">
               <div className="flex justify-center">
-                <img src={l20} alt="botellon 20 litros" className="w-20 flex mt-12 "></img>
-                <img src={caja20} alt="botellon con dispensador" className="w-20"></img>
+                <img src={l20} alt="botellon 20 litros" className="w-24 flex mt-12 "></img>
+                <img src={caja20} alt="botellon con dispensador" className="w-24"></img>
               </div>
               <div className="font-parrafo font-bold pt-3">
                 <p className="flex justify-center text-plomo text-lg">
@@ -81,7 +81,7 @@ const Inicio = () => {
                 </p>
               </div>
               <div className="pt-3 flex justify-evenly text-white">
-                <button className="bg-celeste rounded-lg px-4 py-1 font-bold font-titulo">
+                <button className="bg-celeste rounded-lg px-4 py-1 text-white font-bold font-titulo">
                   $ 10.000
                 </button>
                 <button className="bg-verde hover:hoverver rounded-lg px-4 py-1 text-white font-bold font-titulo">
@@ -89,10 +89,10 @@ const Inicio = () => {
                 </button>
               </div>
             </div>
-            <div className="w-full md:w-1/2 float-left">
+            <div className="w-full md:w-1/2">
               <div className="flex justify-center">
-                <img src={l10} alt="botellon 20 litros" className="w-20 flex mt-12 "></img>
-                <img src={caja10} alt="botellon con dispensador" className="w-20"></img>
+                <img src={l10} alt="botellon 20 litros" className="w-24 flex mt-12 "></img>
+                <img src={caja10} alt="botellon con dispensador" className="w-24"></img>
               </div>
               <div className="font-parrafo font-bold pt-3">
                 <p className="flex justify-center text-plomo text-lg">

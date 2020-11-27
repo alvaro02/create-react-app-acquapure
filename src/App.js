@@ -5,6 +5,8 @@ import Slider from "./components/Slider/Slider";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contacto from "./components/contacto/Contacto";
 import Foot from "./components/footer/Foot";
+import Weus from "./components/nosotros/Weus";
+import Catalogo from "./components/productos/Catalogo";
 
 function App() {
   return (
@@ -19,12 +21,12 @@ function App() {
           </Route>
           <Route path="/Catalogo">
             <Header />
-            <Contacto />
+            <Catalogo />
             <Foot />
           </Route>
           <Route path="/Nosotros">
             <Header />
-            <Contacto />
+            <Weus />
             <Foot />
           </Route>
           <Route path="/Contacto">
