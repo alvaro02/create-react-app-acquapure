@@ -56,6 +56,7 @@ const Weus = () => {
             <img
               class="object-none object-center bg-gray-400 w-1040 h-779 mb-8 ml-8 mr-12"
               src="img/Image-2020-11-16.jpeg"
+              alt="socios"
             />
           </div>
         </div>

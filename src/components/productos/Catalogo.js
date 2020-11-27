@@ -26,8 +26,8 @@ const Catalogo = () => {
         <div className="md:flex">
           <div className="w-full md:w-1/2">
             <div className="flex justify-center">
-              <img className="w-20 mt-12" src={l20} />
-              <img className="w-20" src={caja20} />
+              <img className="w-20 mt-12" src={l20} alt="bidon de 20l" />
+              <img className="w-20" src={caja20} alt="bidon con dispensador" />
             </div>
             <div className="font-parrafo font-bold pt-3">
               <p className="flex justify-center text-plomo text-lg">
@@ -46,8 +46,8 @@ const Catalogo = () => {
           </div>
           <div className="w-full md:w-1/2 float-left">
             <div className="flex justify-center">
-              <img className="w-20 mt-12" src={l10} />
-              <img className="w-20" src={caja10} />
+              <img className="w-20 mt-12" src={l10} alt="bidon de 10l"/>
+              <img className="w-20" src={caja10} alt="bidon con dispensador"/>
             </div>
             <div className="font-parrafo font-bold pt-3">
               <p className="flex justify-center text-plomo text-lg">
@@ -76,7 +76,7 @@ const Catalogo = () => {
         <div className="md:flex">
           <div className="w-full md:w-1/3">
             <div className="flex justify-center">
-              <img className="w-20  mt-12" src={l20} />
+              <img className="w-20  mt-12" src={l20} alt="Bidon de 20L"/>
             </div>
             <div className="font-parrafo font-bold pt-3">
               <p className="flex justify-center text-plomo text-lg">
@@ -95,7 +95,7 @@ const Catalogo = () => {
           </div>
           <div className="w-full md:w-1/3 float-left">
             <div className="flex justify-center">
-              <img className="w-20 mt-12" src={l10} />
+              <img className="w-20 mt-12" src={l10} alt="bidon de 10l" />l
             </div>
             <div className="font-parrafo font-bold pt-3">
               <p className="flex justify-center text-plomo text-lg">
@@ -114,7 +114,7 @@ const Catalogo = () => {
           </div>
           <div className="w-full md:w-1/3">
             <div className="flex justify-center">
-              <img className="w-48 mt-16" src={dispensa} />
+              <img className="w-48 mt-16" src={dispensa} alt="dispensador de agua"/>
             </div>
             <div className="font-parrafo font-bold pt-3">
               <p className="flex justify-center text-plomo text-lg">Dispensador</p>
