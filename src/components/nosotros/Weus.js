@@ -1,4 +1,5 @@
 import React from "react";
+import acqua from "../../assets/img/acqua.jpg";
 
 const Weus = () => {
   return (
@@ -11,10 +12,18 @@ const Weus = () => {
         </div>
       </div>
 
-      <div class="background-img bg-gradient-to-r from-blue-900 bg-cover bg-no-repeat ">
-        <h1 class="text-2xl text-white font-bold text-center py-16">
-          NOSOTROS
-        </h1>
+      <div className="w-full">
+        <img
+          className="absolute inset-0 h-full object-cover"
+          alt="tomar agua"
+          src={acqua}
+        ></img>
+        <div className="absolute inset-0 bg-foote bg-opacity-75"></div>
+        <div className="flex h-full itemes-center justify-center relative">
+          <h1 class="text-2xl text-white font-bold text-center py-16">
+            NOSOTROS
+          </h1>
+        </div>
       </div>
 
       <div class="w-full md:flex">
