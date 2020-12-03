@@ -44,9 +44,10 @@ const Header = () => {
               <Link to={'/Contacto'}> <li className="pl-1 text-white">CONTACTO</li></Link>
             </ul>
           </div>
+          <Burger />
         </div>
       </div>
-      <Burger />
+     
     </div>
   );
 };
