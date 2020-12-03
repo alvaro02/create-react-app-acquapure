@@ -44,7 +44,7 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',  
-      '70': '20rem',
+      '70': '21rem',
     },
   },
   variants: {},
