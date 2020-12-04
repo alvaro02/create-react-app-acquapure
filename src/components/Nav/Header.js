@@ -21,7 +21,7 @@ const Header = () => {
           <btn className="bg-celeste hover:bg-celesteosc text-white rounded-lg px-2">
             Iniciar Sesion
           </btn>
-          <img src={carro} className="w-10 pl-4" alt="carro"></img>
+          <Link to={'/Carrito'}><img src={carro} className="w-10 pl-4" alt="carro"></img></Link>
         </div>
       </div>
       <div className="invisible md:visible md:pt-2 md:border-b md:border-black"></div>

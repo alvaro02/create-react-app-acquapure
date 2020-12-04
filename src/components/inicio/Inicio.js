@@ -7,6 +7,7 @@ import l10 from "../../assets/img/10l.png";
 import l20 from "../../assets/img/20l.png";
 import caja10 from "../../assets/img/bidoncaja10.png";
 import caja20 from "../../assets/img/bidoncaja20.png";
+import {Link} from 'react-router-dom';
 
 const Inicio = () => {
   return (
@@ -58,9 +59,9 @@ const Inicio = () => {
           </div>
         </div>
         <div className="w-full pt-12 pb-10 text-center">
-          <button className="py-4 px-12 bg-celeste hover:bg-celesteosc text-2xl text-white rounded-3xl text-white font-bold font-titulo">
+          <Link to={'/Nosotros'}><button className="py-4 px-12 bg-celeste hover:bg-celesteosc text-2xl text-white rounded-3xl text-white font-bold font-titulo">
             CONOCENOS
-          </button>
+          </button></Link>
         </div>
       </div>
       {/*parte de abajo*/}
