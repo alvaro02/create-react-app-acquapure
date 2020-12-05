@@ -9,12 +9,13 @@
   align-items: center;
   overflow: hidden;
   background: #000000;
+  background-size: cover;
 }
 
 .slide {
   position: relative;
   min-width: 100%;
-
+  
   transition: 0.5s;
   overflow: hidden;
 }
@@ -33,7 +34,7 @@
     background: rgba(0, 0, 0, 0.356);
     cursor: pointer;
     i {
-        color: rgb(209, 209, 209);
+        color: rgb(119, 119, 119);
     }
   }
 }
@@ -48,12 +49,6 @@
   @extend %btn-styles;
 }
 
-.palabras {
-  position: absolute;
-  
-  }
-
-  
 @media (max-width: 767px) {
 
   .ulnav {

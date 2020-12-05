@@ -7,8 +7,8 @@ const Weus = () => {
     <div>
       {/*CONTENEDOR--MIGAS DE PAN*/}
       <div className="w-full px-8 lg:px-32">
-        <div className=" w-full md:w-48  pt-1 bg-celesteosc text-center">
-          <p className=" text-sm text-white font-bold">
+        <div className=" w-full md:w-48 bg-celesteosc text-center">
+          <p className="font-parrafo text-sm text-white font-bold">
             Inicio / <u> Nosotros </u>
           </p>
         </div>
@@ -35,7 +35,7 @@ const Weus = () => {
       <div className="w-full px-8 lg:px-32 pt-12">
 
           {/*CONTENEDOR-CONTENIDO*/}
-          <div className="w-full md:w-1/2 text-justify font-parrafo text-xl float-left ">
+          <div className="w-full md:w-1/2 text-justify font-parrafo text-lg float-left ">
             <div className="">
               <p>
                 Somos una PYME dedicada a la venta de agua purificada. Destacamos

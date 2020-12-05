@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "../../assets/css/slider.scss";
 import ImgComp from "./ImgComp";
-import i1 from "../../assets/img/i1.jpg";
-import i2 from "../../assets/img/i2.jpg";
-import i3 from "../../assets/img/i3.jpg";
+import i1 from "../../assets/img/i1.png";
+import i2 from "../../assets/img/i2.png";
+import i3 from "../../assets/img/i3.png";
 
 
 function Slider() {
@@ -19,9 +19,9 @@ function Slider() {
   const goRight = () => {
     x === -100 * (sliderArr.length - 1) ? setX(0) : setX(x - 100);
   };
-
+  
   return (
-    <div className="slider">
+    <div className="slider xl:h-75">
       {sliderArr.map((item, index) => {
         return (
           <div
@@ -30,9 +30,12 @@ function Slider() {
             style={{ transform: `translateX(${x}%)` }}
           >
             {item}
+             
           </div>
+         
         );
       })}
+      
       <button id="goLeft" onClick={goLeft}>
         <i class="fas fa-chevron-left"></i>
       </button>

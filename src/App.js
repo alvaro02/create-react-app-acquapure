@@ -7,7 +7,7 @@ import Contacto from "./components/contacto/Contacto";
 import Foot from "./components/footer/Foot";
 import Weus from "./components/nosotros/Weus";
 import Catalogo from "./components/productos/Catalogo";
-import Shopping from "./components/carrito/Shopping"
+import Shopping from "./components/carrito/Shopping";
 
 function App() {
   return (
