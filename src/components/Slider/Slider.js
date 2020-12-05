@@ -21,7 +21,7 @@ function Slider() {
   };
   
   return (
-    <div className="slider xl:h-75">
+    <div className="slider">
       {sliderArr.map((item, index) => {
         return (
           <div
