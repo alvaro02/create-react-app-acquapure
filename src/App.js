@@ -8,6 +8,8 @@ import Foot from "./components/footer/Foot";
 import Weus from "./components/nosotros/Weus";
 import Catalogo from "./components/productos/Catalogo";
 import Shopping from "./components/carrito/Shopping";
+import Sesionuser from "./components/sesionuser/Sesion";
+import Registrate from "./components/sesionuser/Registrate";
 
 function App() {
   return (
@@ -38,6 +40,16 @@ function App() {
           <Route path="/Carrito">
             <Header />
             <Shopping />
+            <Foot />
+          </Route>
+          <Route path="/Registrate">
+            <Header />
+            <Registrate />
+            <Foot />
+          </Route>
+          <Route path="/Sesionuser">
+            <Header />
+            <Sesionuser />
             <Foot />
           </Route>
         </Switch>

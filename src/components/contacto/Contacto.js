@@ -15,7 +15,7 @@ const Contacto = () => {
       {/*CONTENEDOR-MAYOR*/}
       <div className="w-full pt-5">
         {/*CONTENEDOR-DUDAS*/}
-        <div className="w-full md:w-6/12 float-left">
+        <div className="w-full md:w-1/2 float-left">
           {/*CONTENEDOR-TITULO-¿TIENES-DUDAS?*/}
           <div className="w-full text-center ">
             <h1 className="font-titulo text-2xl text-celeste font-bold">
@@ -68,7 +68,7 @@ const Contacto = () => {
           </div>
         </div>
         {/*CONTENEDOR-CONTACTO*/}
-        <div className="w-full md:w-6/12 md:justify-center float-none md:float-left">
+        <div className="w-full md:w-1/2 md:justify-center float-none md:float-left">
           {/*CONTENEDOR-TITUTLO-CONTACTO*/}
           <div className="w-full text-center justify-center font-titulo text-2xl text-celeste font-bold">
             <h1 className="">CONTACTO</h1>

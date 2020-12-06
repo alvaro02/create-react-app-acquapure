@@ -12,7 +12,7 @@ module.exports = {
         celeste: "#1BBDE8",
         celesteosc: "#128DC7",
         plomo: "#7E7E7E",
-        contenedor: "#F9F9F9",
+        contenedor: "#F0F0F0",
         foote: "#031E47",
         griss: '#E5E5E5',
       },
@@ -46,7 +46,7 @@ module.exports = {
       '56': '14rem',
       '64': '16rem',  
       '70': '21rem',
-      '75': '32rem'
+      '75': '40rem'
     },
   },
   variants: {},

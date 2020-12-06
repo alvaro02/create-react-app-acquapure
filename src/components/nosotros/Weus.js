@@ -1,6 +1,7 @@
 import React from "react";
 import Socios from '../../assets/img/Image-2020-11-16.jpeg';
-import tomando from '../../assets/img/acqua.jpg'
+import tomando from '../../assets/img/acqua.jpg';
+import { Link } from 'react-router-dom';
 
 const Weus = () => {
   return (
@@ -9,7 +10,7 @@ const Weus = () => {
       <div className="w-full px-8 lg:px-32">
         <div className=" w-full md:w-48 bg-celesteosc text-center">
           <p className="font-parrafo text-sm text-white font-bold">
-            Inicio / <u> Nosotros </u>
+          <Link to={'/'}>Inicio</Link> / <u> Nosotros </u>
           </p>
         </div>
       </div>

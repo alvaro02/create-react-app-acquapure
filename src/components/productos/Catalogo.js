@@ -14,7 +14,7 @@ const Catalogo = () => {
           <div className="w-full md:w-48 bg-celesteosc text-center">
             {/*1*/}
             <p className="font-parrafo text-sm text-white font-bold">
-              <Link to={'/'}> Inicio /</Link> <u> Catalogo </u>
+              <Link to={'/'}>Inicio</Link>/ <u> Catalogo </u>
             </p>
           </div>
         </div>

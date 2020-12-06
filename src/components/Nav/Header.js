@@ -9,18 +9,18 @@ const Header = () => {
     <div>
       <div className="invisible md:visible w-0 md:w-full font-parrafo text-sm px-8 pt-2 lg:px-32">
         <div className="w-1/2 flex justify-start text-sm float-left">
-          <btn className="bg-verde hover:bg-hoverver text-white rounded-lg px-2">
+          <Link to={'/Catalogo'}><button className="bg-verde hover:bg-hoverver text-white rounded-lg px-2">
             Haga su pedido
-          </btn>
+          </button></Link>
           <p className="invisible md:visible md:pl-4">Llámanos ahora: +56 8 2345 6789</p>
         </div>
         <div className="w-1/2 flex justify-end">
-          <a className="pr-4 font-bold" href="www.google.cl">
+        <Link to={'/Registrate'}><a className="pr-4 font-bold" href="www.google.cl">
             Registrate
-          </a>
-          <btn className="bg-celeste hover:bg-celesteosc text-white rounded-lg px-2">
+          </a></Link>
+          <Link to={'/Sesionuser'}><button className="bg-celeste hover:bg-celesteosc text-white rounded-lg px-2">
             Iniciar Sesion
-          </btn>
+          </button></Link>
           <Link to={'/Carrito'}><img src={carro} className="w-10 pl-4" alt="carro"></img></Link>
         </div>
       </div>

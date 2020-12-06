@@ -28,12 +28,12 @@ const Ul = styled.ul`
 const NavDer = ({ open }) => {
   return (
     <Ul open={open} className="visible md:invisible md:-mb-40 font-titulo md:pt-0 text-center font-titulo text-lg">
-     <Link to={'/'}> <li className="pt-12 md:pt-0">INICIO SESION</li> </Link>
+     <Link to={'/Sesionuser'}> <li className="pt-12 md:pt-0">INICIO SESION</li> </Link>
      <Link to={'/'}><li className="py-5 md:py-0">INICIO</li></Link>
      <Link to={'/Catalogo'}><li className="">CATALOGO</li></Link>
      <Link to={'/Nosotros'}><li className="py-5 md:py-0">NOSOTROS</li></Link>
      <Link to={'/Contacto'}><li className="">CONTACTO</li></Link>
-     <Link to={'/'}><li className="flex justify-center pt-5 md:pt-0"><img src={carrob} className="w-16" alt="carro"></img></li></Link>
+     <Link to={'/Carrito'}><li className="flex justify-center pt-5 md:pt-0"><img src={carrob} className="w-16" alt="carro"></img></li></Link>
     </Ul>
   )
 }
