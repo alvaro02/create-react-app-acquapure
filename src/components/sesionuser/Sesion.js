@@ -21,7 +21,7 @@ const Sesion = () => {
           <div className="md:w-1/2 md:h-3/4 md:m-auto md:py-40">
             <div className="w-full px-8 md:px-4 float-left md:bg-white">
               <div className="md:px-14 pt-7">
-                <form className="md:text-sm text-base font-parrafo" name="contact" method="POST" data-netlify="true">>
+                <form className="md:text-sm text-base font-parrafo" name="contact" method="POST" data-netlify="true">
                   <div className="w-full text-center pb-4">
                     <h1 className="font-titulo text-2xl text-celeste font-bold">
                       Iniciar Sesión
