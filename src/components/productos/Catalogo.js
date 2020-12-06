@@ -27,7 +27,7 @@ const Catalogo = () => {
         <div className="w-full pt-5">
           <div className="md:flex">
             <div className="w-full md:w-1/2 pb-7 md:pb-0">
-              <div className="flex justify-center">
+              <div className="flex justify-center shadow-lg">
                 <img className="w-20 md:w-32 mt-12" src={l20} alt="bidon de 20l" />
                 <img className="w-20 md:w-32" src={caja20} alt="bidon con dispensador" />
               </div>
@@ -47,7 +47,7 @@ const Catalogo = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 float-left pb-10">
-              <div className="flex justify-center">
+              <div className="flex justify-center shadow-lg">
                 <img className="w-20 md:w-32 mt-12" src={l10} alt="bidon de 10l" />
                 <img className="w-20 md:w-32" src={caja10} alt="bidon con dispensador" />
               </div>
@@ -78,7 +78,7 @@ const Catalogo = () => {
           </div>
           <div className="md:flex pt-7 md:pt-12">
             <div className="w-full md:w-1/3">
-              <div className="flex justify-center">
+              <div className="flex justify-center shadow-lg">
                 <img className="w-25 md:w-32" src={l20} alt="Bidon de 20L" />
               </div>
               <div className="font-parrafo font-bold pt-3">
@@ -97,7 +97,7 @@ const Catalogo = () => {
               </div>
             </div>
             <div className="w-full md:w-1/3 py-7 md:py-0">
-              <div className="flex justify-center">
+              <div className="flex justify-center shadow-lg">
                 <img className="w-25 md:w-32" src={l10} alt="bidon de 10l" />
               </div>
               <div className="font-parrafo font-bold pt-3">
@@ -116,7 +116,7 @@ const Catalogo = () => {
               </div>
             </div>
             <div className="w-full md:w-1/3 -mt-12 md:mt-0 pb-7 md:pb-0">
-              <div className="flex justify-center md:py-3 py-0">
+              <div className="flex justify-center md:py-3 py-0 shadow-lg">
                 <img className="w-64 mt-16" src={dispensa} alt="dispensador de agua" />
               </div>
               <div className="font-parrafo font-bold pt-3">

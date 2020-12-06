@@ -72,7 +72,7 @@ const Inicio = () => {
           </div>
           <div className="pt-8 md:flex">
             <div className="w-full md:w-1/2">
-              <div className="flex justify-center">
+              <div className="flex justify-center shadow-lg">
                 <img src={l20} alt="botellon 20 litros" className="w-24 flex mt-12 "></img>
                 <img src={caja20} alt="botellon con dispensador" className="w-24"></img>
               </div>
@@ -91,7 +91,7 @@ const Inicio = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 pt-6 md:pt-0">
-              <div className="flex justify-center">
+              <div className="flex justify-center shadow-lg">
                 <img src={l10} alt="botellon 20 litros" className="w-24 flex mt-12 "></img>
                 <img src={caja10} alt="botellon con dispensador" className="w-24"></img>
               </div>
