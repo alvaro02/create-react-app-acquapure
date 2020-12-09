@@ -1,15 +1,18 @@
 import React from "react";
-import Inicio from "./components/inicio/Inicio";
+//import Inicio from "./components/inicio/Home";
 import Header from "./components/Nav/Header";
 import Slider from "./components/Slider/Slider";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contacto from "./components/contacto/Contacto";
 import Foot from "./components/footer/Foot";
 import Weus from "./components/nosotros/Weus";
-import Catalogo from "./components/productos/Catalogo";
-import Shopping from "./components/carrito/Shopping";
+//import Catalogo from "./components/productos/Catalogot";
+//import Shopping from "./components/carrito/Shoppingt";
 import Sesionuser from "./components/sesionuser/Sesion";
 import Registrate from "./components/sesionuser/Registrate";
+import Catalogot from "./components/productos/Catalogot";
+import Shoppingt from "./components/carrito/Shoppingt";
+import Home from "./components/inicio/Home";
 
 function App() {
   return (
@@ -19,12 +22,12 @@ function App() {
           <Route exact path="/">
             <Header />
             <Slider />
-            <Inicio />
+            <Home />
             <Foot />
           </Route>
           <Route path="/Catalogo">
             <Header />
-            <Catalogo />
+            <Catalogot />
             <Foot />
           </Route>
           <Route path="/Nosotros">
@@ -39,7 +42,7 @@ function App() {
           </Route>
           <Route path="/Carrito">
             <Header />
-            <Shopping />
+            <Shoppingt />
             <Foot />
           </Route>
           <Route path="/Registrate">

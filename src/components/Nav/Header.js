@@ -30,7 +30,7 @@ const Header = () => {
       <div className="md:h-12 md:bg-celeste font-parrafo text-lg mt-4 px-8 lg:px-32 md:mb-6">
         <div className="w-full">
           <div className="w-full md:w-1/2 flex justify-start md:float-left">
-            <img src={aqua_pure} alt="Logo" className="w-48 bg-white -mt-6 md:-mt-2 px-0 md:px-3"></img>
+            <Link to={'/'}><img src={aqua_pure} alt="Logo" className="w-48 bg-white -mt-6 md:-mt-2 px-0 md:px-3"></img></Link>
           </div>
           
           <div className="invisible md:visible w-0 md:w-1/2 flex justify-end object-center">
