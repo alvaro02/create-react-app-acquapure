@@ -111,7 +111,7 @@ class Catalogo extends React.Component{
                 </div>
                 <div className="font-parrafo font-bold pt-3">
                   <p className="flex justify-center text-plomo text-lg">
-                    Recarga de 10 LT
+                    Recarga de 10 LT                   
                 </p>
                 </div>
   

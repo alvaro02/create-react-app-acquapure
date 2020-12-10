@@ -7,7 +7,7 @@ import { ADD_QUANTITY, ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY } from "../actions
 
 const initState = {
     items: [
-       /* 0*/ { id: 1, title: 'Recarga de 10 LT', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 1500, img: l10 },
+       /* 0*/  { id: 1, title: 'Recarga de 10 LT', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 1500, img: l10 },
        /* 1*/  { id: 2, title: 'Recarga de 20 LT', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 2500, img: l20 },
       /* 2*/   { id: 3, title: '2 Botellones de 10 LT + Dispensador', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 8000, img: caja10 },
       /* 3*/   { id: 4, title: '2 Botellones de 20 LT + Dispensador', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 10000, img: caja20 },

@@ -25,21 +25,21 @@ class Shopping extends React.Component {
       this.props.items.map((item) => {
         return (
           <li className="collection-item avatar" key={item.id}>
-          <div className="w-full font-parrafo text-lg text-celeste pt-3 px-2 md:flex md:pb-5">
+          <div className="w-full font-parrafo text-lg text-celeste pt-3 md:flex md:pb-5 md:text-base">
             {/*PRODUCTO*/}
             <div className="w-full md:w-2/5">
               <div className="text-center md:text-left">
                 <h1 className="font-bold">PRODUCTO</h1>
               </div>
               <div className="justify-items-center md:justify-items-start grid grid-cols-2 md:grid-cols-none pt-3 md:flex">
-                <div className="px-3 border-2 border-plomo">
+                <div className="px-3 border-2 border-plomo md:w-1/2">
                   <img
                     className="w-20 md:w-40"
                     src={item.img}
                     alt="productos"
                   />
                 </div>
-                <div className="flex items-center pt-3 md:pt-0 md:px-2">
+                <div className="flex items-center pt-3 md:pt-0 md:px-2 md:w-1/2">
                   <h1 className="text-center">{item.title}</h1>
                 </div>
               </div>
@@ -47,13 +47,11 @@ class Shopping extends React.Component {
             
             {/*CANTIDAD*/}
             <div
-              className="w-full flex grid grid-cols-2 justify-items-center items-center 
-                          pt-2 md:pt-0 md:grid-cols-none md:w-1/5 md:content-start"
-            >
+              className="grid grid-cols-2 justify-items-center pt-2 md:pt-0 md:w-1/5 md:grid-cols-none items-center md:items-start">
               <div className="">
                 <h1 className="font-bold">CANTIDAD</h1>
               </div>
-              <div className="w-full grid grid-cols-3 justify-items-center items-center md:pt-20">
+              <div className="w-full grid grid-cols-3 justify-items-center items-center">
                 <div className="">
                   <button
                     className="text-3xl font-bold "
@@ -65,8 +63,8 @@ class Shopping extends React.Component {
                     -
                   </button>
                 </div>
-                <div className="w-full">
-                  <div className="border-2 border-plomo text-center">
+                <div className="w-full md:pt-2">
+                  <div className="border-2 border-plomo text-center ">
                     {item.quantity}
                   </div>
                 </div>
@@ -119,7 +117,7 @@ class Shopping extends React.Component {
         />
         <div className="md:absolute md:inset-0 md:bg-celeste md:bg-opacity-75"></div>
         <div className="md:flex md:h-full md:items-center md:justify-center md:relative">
-          <div className="md:w-3/4 md:h-3/4 md:m-auto md:py-40">
+          <div className="md:w-full md:h-3/4 md:m-auto md:py-40 lg:w-10/12">
             <div className="w-full md:w-2/3 px-8 md:px-4 float-left bg-white">
               {/*CONTENEDOR--MIGAS DE PAN*/}
               <div className="w-full md:w-0 pt-1 md:pt-0">
@@ -138,7 +136,7 @@ class Shopping extends React.Component {
               </div>
               {/*CONTENEDOR--PRODUCTO-CANTIDAD-PRECIO-VALORES*/}
 
-              <div className="w-full font-parrafo text-lg text-celeste pt-3 px-2 md:flex">
+              <div className="w-full font-parrafo text-lg text-celeste pt-3 md:flex">
                 <ul>{addedItems}</ul>
               </div>
             </div>
@@ -187,7 +185,7 @@ class Shopping extends React.Component {
                   <div>
                     <button
                       className="bg-verde hover:bg-hoverver text-white rounded-lg font-bold 
-                                    py-2 px-20 rounded focus:outline-none focus:shadow-outline"
+                                    py-2 px-20 rounded focus:outline-none focus:shadow-outline md:px-12"
                       type="button"
                     >
                       Pagar
