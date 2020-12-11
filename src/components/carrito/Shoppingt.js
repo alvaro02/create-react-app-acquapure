@@ -97,7 +97,7 @@ class Shopping extends React.Component {
                 <h1 className="font-bold">TOTAL</h1>
               </div>
               <div className="text-center float-left text-black">
-                <h1 className="pb-8 md:pb-0">$ 2.500</h1>
+                <h1 className="pb-8 md:pb-0">{item.quantityPrice}</h1>
               </div>
             </div>
             </div>
