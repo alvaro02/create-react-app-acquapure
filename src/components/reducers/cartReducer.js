@@ -1,8 +1,8 @@
-import l10 from "../../assets/img/10l.png";
-import l20 from "../../assets/img/20l.png";
+import l10 from "../../assets/img/carro10LT.png";
+import l20 from "../../assets/img/carro20LT.png";
 import caja10 from "../../assets/img/bidoncaja10.png";
 import caja20 from "../../assets/img/bidoncaja20.png";
-import dispensa from "../../assets/img/Dispensador-blanco-hor--1024x683.png";
+import dispensa from "../../assets/img/carrodispensador.png";
 import { ADD_QUANTITY, ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY } from "../actions/action-types/cart-actions";
 
 const initState = {
