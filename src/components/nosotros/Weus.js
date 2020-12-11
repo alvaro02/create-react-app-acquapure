@@ -69,7 +69,7 @@ const Weus = () => {
 
           </div>
           {/*CONTENEDOR-FOTO*/}
-          <div className="w-full lg:w-1/2 pb-7 float-none md:float-left">
+          <div className="w-full md:w-1/2 pb-7 float-none md:float-left">
             <div className="w-full md:flex justify-center">
               <img className="w-full md:w-9/12"
                 src={Socios}
