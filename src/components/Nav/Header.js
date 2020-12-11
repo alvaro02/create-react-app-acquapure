@@ -35,13 +35,13 @@ const Header = () => {
           
           <div className="invisible md:visible w-0 md:w-1/2 flex justify-end object-center">
             <ul className="flex justify-end mt-3">
-            <Link to={'/'}><li className="pl-1 text-white">INICIO</li></Link>
+            <Link to={'/'}><li className="pl-1 text-white hover:bg-gray-600">INICIO</li></Link>
               <li className="pl-1 text-black">│</li>
-              <Link to={'/Catalogo'}><li className="pl-1 text-white">CATALOGO</li></Link>
+              <Link to={'/Catalogo'}><li className="pl-1 text-white hover:bg-gray-400">CATALOGO</li></Link>
               <li className="pl-1 text-black">│</li>
-              <Link to={'/Nosotros'}><li className="pl-1 text-white">NOSOTROS</li></Link>
+              <Link to={'/Nosotros'}><li className="pl-1 text-white hover:bg-gray-400">NOSOTROS</li></Link>
               <li className="pl-1 text-black">│</li>
-              <Link to={'/Contacto'}> <li className="pl-1 text-white">CONTACTO</li></Link>
+              <Link to={'/Contacto'}> <li className="pl-1 text-white hover:bg-gray-400">CONTACTO</li></Link>
             </ul>
           </div>
           <Burger />
