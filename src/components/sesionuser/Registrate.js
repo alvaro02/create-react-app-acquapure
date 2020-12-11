@@ -91,8 +91,7 @@ const Sesion = () => {
                     <h4 className="text-lg text-white md:text-celeste">
                       Tienes cuenta?
                     </h4>
-                    <Link to={"/Sesion"}>
-                      {" "}
+                    <Link to={"/Sesionuser"}>
                       <button className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-bold text-lg text-white md:text-celeste pb-20">
                         Iniciar Sesión
                       </button>
