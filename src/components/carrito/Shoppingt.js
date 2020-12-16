@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
 import Sirviendo from "../../assets/img/i2.jpg";
 import {
@@ -124,7 +125,7 @@ class Shopping extends React.Component {
                 <div className=" bg-celesteosc text-center">
                   {/*1*/}
                   <p className="font-parrafo text-sm text-white font-bold">
-                    Inicio / <u> Contacto </u>
+                  <Link to={'/'}>Inicio</Link>  / <u> Contacto </u>
                   </p>
                 </div>
               </div>
