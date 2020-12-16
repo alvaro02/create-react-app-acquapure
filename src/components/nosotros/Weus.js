@@ -25,7 +25,7 @@ const Weus = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'bottom'
         }} >
-        <img className="bg-fixed absolute inset-0 h-full w-full object-cover" alt="fondo" />
+        <img className="bg-fixed absolute inset-0 h-full w-full object-cover"/>
         <div className=" absolute inset-0 bg-foote bg-opacity-75"></div>
         <div className="flex h-full items-center justify-center relative">
           <h1 className="font-titulo text-2xl font-bold text-white">NOSOTROS</h1>
