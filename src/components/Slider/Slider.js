@@ -4,11 +4,13 @@ import ImgComp from "./ImgComp";
 import i1 from "../../assets/img/i1.png";
 import i2 from "../../assets/img/i2.png";
 import i3 from "../../assets/img/i3.png";
+import i5 from "../../assets/img/i5.png";
 
 
 function Slider() {
   const [x, setX] = useState(0);
   let sliderArr = [
+    <ImgComp src={i5} />,
     <ImgComp src={i1} />,
     <ImgComp src={i2} />,
     <ImgComp src={i3} />,
